@@ -1,0 +1,38 @@
+{
+  "name": "minds-eye-search-engine",
+  "version": "0.1.0",
+  "description": "Search + stats microservice for the Google-native Mind's Eye OS constellation. Powers /events/search and /events/stats over normalized MindEyeEvent data from Gmail, Calendar, Drive, Docs, Meet, Android, and system sources.",
+  "main": "dist/server.js",
+  "types": "dist/server.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "mindseye",
+    "minds-eye",
+    "minds-eye-search-engine",
+    "search-engine",
+    "event-search",
+    "full-text-search",
+    "trigram-search",
+    "google-workspace",
+    "google-cloud",
+    "google-native",
+    "timeline-stats",
+    "agentic-os",
+    "typescript",
+    "sageworks-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0"
+  }
+}
